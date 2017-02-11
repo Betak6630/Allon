@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/css/form-elements.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media-queries.css">
+    <link href="~/Content/Slick/slick.css" rel="stylesheet" />
+    <link href="~/Content/Slick/slick-theme.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,6 +29,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
 </head>
 <body>
 
@@ -51,10 +54,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="top-navbar-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="scroll-link" href="#top-content">Ансамбль</a></li>
-                    <li><a class="scroll-link" href="#portfolio">Наши выступления</a></li>
-                    <li><a class="scroll-link" href="#what-we-do">Фото</a></li>
-                    <li><a class="scroll-link" href="#pricing-2">Тарифы</a></li>
+                    <li><a class="scroll-link" href="#top-content">Главная</a></li>
+                    <li><a class="scroll-link" href="#what-we-do">Новости</a></li>
+                    <li><a class="scroll-link" href="#portfolio">Галерея</a></li>
+                    <li><a class="scroll-link" href="#pricing-2">Руководитель</a></li>
                     <li><a class="scroll-link" href="#about">О нас</a></li>
                     <li><a class="scroll-link" href="#contact">Контакты</a></li>
                 </ul>
@@ -63,22 +66,26 @@
     </nav>
 
     <!-- Page title -->
-    <div class="page-title top-content">
-        <div class="page-title-text wow fadeInUp">
-            <h1>Добро пожаловать в ансамбль Allon</h1>
-            <p>Allon - школа кавказских танцев</p>
-            <div class="page-title-bottom-link">
+<div class="page-title top-content">
+    <div class="page-title-text wow fadeInUp">
+
+        <h1>Добро пожаловать в ансамбль Allon</h1>
+        <p>Allon - школа кавказских танцев</p>
+        @* <div class="page-title-bottom-link">
                 <a class="big-link-1 btn scroll-link" href="#pricing-2">Записаться сейчас</a>
                 <a class="big-link-2 btn scroll-link" href="#what-we-do">Ознакомиться</a>
-            </div>
-        </div>
+            </div>*@
     </div>
-    <!-- What we do -->
+</div>
+
+
+
+<!-- What we do -->
     <div class="block-3-container section-container what-we-do-container">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 block-3 section-description wow fadeIn">
-                    <h2>Наши услуги</h2>
+                    <h2>Новости</h2>
                     <div class="divider-1 wow fadeInUp"><span></span></div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
@@ -119,7 +126,7 @@
         </div>
     </div>
 
-    <!-- Clients -->
+@*    <!-- Clients -->
     <div class="clients-container section-container section-container-gray">
         <div class="container">
             <div class="row">
@@ -142,7 +149,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>*@
     <!-- Block 2 -->
     <div class="block-2-container section-container">
         <div class="container">
@@ -217,12 +224,13 @@
         </div>
     </div>
 
+@*
     <!-- Counters -->
     <div class="counters-container section-container section-container-full-bg">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 counter-box wow fadeInUp">
-                    <h4 data-from="0" data-to="12">0</h4>
+                    <h4 data-from="0" data-to="3">0</h4>
                     <p>Years of experience</p>
                 </div>
                 <div class="col-sm-3 counter-box wow fadeInDown">
@@ -240,13 +248,14 @@
             </div>
         </div>
     </div>
+*@
 
     <!-- Portfolio -->
     <div class="portfolio-container section-container">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 portfolio section-description wow fadeIn">
-                    <h2>Выступления</h2>
+                    <h2>Галерея</h2>
                     <div class="divider-1 wow fadeInUp"><span></span></div>
                     <p>
                         Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
@@ -370,7 +379,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 block-2-box block-2-left wow fadeInLeft">
-                    <h3>How we do it?</h3>
+                    <h3>Какие танцы мы танцуем?</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna.
@@ -418,7 +427,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 pricing-2 section-description wow fadeIn">
-                    <h2>Тарифы</h2>
+                    <h2>Абонименты</h2>
                     <div class="divider-1 wow fadeInUp"><span></span></div>
                     <p>
                         Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
@@ -440,7 +449,7 @@
                             <p><span>300MB</span> storage</p>
                         </div>
                         <div class="pricing-2-table-button">
-                            <a class="big-link-1 btn" href="#">Sign up</a>
+                            <a class="big-link-1 btn" href="#">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -457,7 +466,7 @@
                             <p><span>500MB</span> storage</p>
                         </div>
                         <div class="pricing-2-table-button">
-                            <a class="big-link-1 btn" href="#">Sign up</a>
+                            <a class="big-link-1 btn" href="#">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -474,7 +483,7 @@
                             <p><span>900MB</span> storage</p>
                         </div>
                         <div class="pricing-2-table-button">
-                            <a class="big-link-1 btn" href="#">Sign up</a>
+                            <a class="big-link-1 btn" href="#">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -491,7 +500,7 @@
                             <p><span>2GB</span> storage</p>
                         </div>
                         <div class="pricing-2-table-button">
-                            <a class="big-link-1 btn" href="#">Sign up</a>
+                            <a class="big-link-1 btn" href="#">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -637,7 +646,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 block-2-box block-2-left wow fadeInLeft">
-                    <h3>Tim Brown / <span>Developer</span></h3>
+                    <h3>Багаев Алан Ахметович / <span>Руководитель ансамбля</span></h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
@@ -646,7 +655,7 @@
                         Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
                         Mirum est notare quam littera gothica, quam nunc putamus parum claram lorem.
                     </p>
-                    <h3>Follow Him:</h3>
+                    <h3>Пописывайтесь:</h3>
                     <div class="about-social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>
@@ -679,7 +688,7 @@
                     </div>
                 </div>
                 <div class="col-sm-8 block-2-box block-2-right wow fadeInUp">
-                    <h3>Sarah Red / <span>Designer</span></h3>
+                    <h3>Альбина / <span>Designer</span></h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
@@ -779,9 +788,24 @@
     <script src="assets/js/jquery.countTo.js"></script>
     <script src="assets/js/masonry.pkgd.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="Scripts/Slick/slick.js"></script>
 
     <!--[if lt IE 10]>
         <script src="assets/js/placeholder.js"></script>
     <![endif]-->
+
+
+    <script type="text/javascript">
+    $(document).on('ready', function () {
+        $(".regular").slick({
+            ots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
+            adaptiveHeight: true
+        });
+    });
+    </script>
 </body>
 </html>
