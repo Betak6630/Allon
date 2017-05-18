@@ -224,7 +224,10 @@
     <Content Include="assets\img\about\4.jpg" />
     <Content Include="assets\img\about\5.jpg" />
     <Content Include="assets\img\backgrounds\1%402x.jpg" />
+    <Content Include="assets\img\backgrounds\1%402x_t.jpg" />
     <Content Include="assets\img\backgrounds\1.jpg" />
+    <Content Include="assets\img\backgrounds\1_.jpg" />
+    <Content Include="assets\img\backgrounds\1_t.jpg" />
     <Content Include="assets\img\clients\1.png" />
     <Content Include="assets\img\clients\2.png" />
     <Content Include="assets\img\clients\3.png" />
