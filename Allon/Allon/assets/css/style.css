@@ -349,7 +349,7 @@ ul.navbar-nav li a:focus { background: none; color: #2ba560; outline: 0; }
 .block-2-img-container .img-container-line.line-2 { top: 43px; left: -27px; }
 .block-2-img-container .img-container-line.line-3 { top: 23px; left: -27px; }
 
-.block-2-img-container img { -moz-border-radius: 0 0 40px 0; -webkit-border-radius: 0 0 40px 0; border-radius: 0 0 40px 0; }
+.block-2-img-container img { -moz-border-radius: 5px 5px 40px 5px; -webkit-border-radius: 5px 5px 40px 5px; border-radius: 5px 5px 40px 5px; }
 
 .block-2-box .video-box {
 	max-width: 540px;
