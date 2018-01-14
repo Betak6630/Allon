@@ -12,7 +12,7 @@
     border-color: #000000;
     border-width: 0px;
     max-width: 380px;
-    min-height: 3580px;
+    min-height: 3300px;
     width: 100%;
     z-index: 1;
 }
@@ -495,6 +495,7 @@
     -pie-background: rgba(0, 0, 0, 0.5);
     background-color: #7F7F7F;
     background-color: rgba(0, 0, 0, 0.5);
+
     min-height: 571px;
     z-index: 48;
 }
@@ -579,7 +580,7 @@
     left: -158px;
     line-height: 30px;
     margin-left: 50%;
-    margin-top: 28px;
+    margin-top: 10px;
     min-height: 35px;
     position: relative;
     text-align: center;
@@ -795,8 +796,8 @@
     -pie-background: rgba(0, 0, 0, 0.5);
     background-color: #7F7F7F;
     background-color: rgba(0, 0, 0, 0.5);
-    min-height: 511px;
-    padding-bottom: 160px;
+    min-height: 395px;
+    padding-bottom: 0px;
     z-index: 112;
 }
 
@@ -939,7 +940,7 @@
 
 #u4862-bw {
     margin-top: 2900px;
-    min-height: 511px;
+    min-height: 395px;
     z-index: 112;
 }
 
